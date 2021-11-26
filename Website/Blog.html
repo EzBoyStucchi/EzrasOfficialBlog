@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ezra's blog</title>
+        <!-- iphone and tablet support -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <style>
+            /* backround */
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                padding: 25px;
+                background-color:white;
+                color:black;
+                font: size 25px;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            /* modes */
+            .red-mode {
+                 background-color: rgb(255,000,000);
+                 color: darkred;
+            }
+            .dark-mode {
+                background-color: black;
+                color: white;
+            }
+            .Isa-mode {
+                background-color: hotpink;
+                color: cyan;
+            }
+            .daddy-mode {
+                background-image: url("download.png");
+                color: black;
+            }
+            /* Buttons */
+            .button {
+                background-color: salmon;
+                border: none;
+                color: darkred;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px ;
+                cursor: pointer;      
+            }
+            .buttonblacked {
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            
+            .isabutton {
+                background-color: darkorchid;
+                border: none;
+                color: cyan;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px ;
+                cursor: pointer;
+            }
+            .daddybutton {
+                background-color: blue;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px ;
+                cursor: pointer;
+            }
+            /* demo's, div's and hovers */
+            a:hover {
+                background-color: greenyellow;
+            }
+            #demo2 {
+                font-size: 11.5px;
+            }
+            .myDiv {
+                border: 5px outset red;
+                background-color:lightblue;
+                text-align: center;
+            }    
+            /* other */
+            .buttonblacked {border-radius: 8px;}
+            .button {border-radius: 8px;}
+            .isabutton {border-radius: 8px;}
+            .daddybutton {border-radius: 8px;}
+        </style>
+    </head>
+    <body>
+        <!--Text, buttons and links-->
+        <h1><span style="color:green">B</span><span style="color:aqua">L</span><span style="color:pink">O</span><span style="color:chocolate">G</span><h1>
+            <p>beta</p>
+        <div class="myDiv">
+        <details>
+            <summary>Updates</summary>
+        <br>
+        <p>9.11.2021:</p>
+        <br>
+        <ul>
+            <li>Added a blog post</li>
+            <li>Added CSS property of the day</li>
+        </ul>
+        </div>
+    </details>
+        <button class="button" onclick="myFunction()";>Click to toggle red mode</button>
+        <button class="buttonblacked" onclick="myFunction2()";>Click to toggle dark mode</button>
+        <button class="isabutton" onclick="myFunction3()";>Click to toggle Isa mode</button>
+        <button class="daddybutton" onclick="myFunction4()";>Click to toggle Daddy mode</button>
+        <p>like clicker games? go to cookie clicker: is a big game!</p>
+        <p>Alg. of the year:</p>
+        <br>
+        <p>T PERM!!!</p>
+        <p>Alg: R U R' U' R' F R2 U' R' U' R U R' F'</p>
+        <p>colour of the day: <span style="color:aqua">Aqua</span></p>
+        <p>rgb of <span style="color:aqua">Aqua</span> 0,255,255 </p>
+        <br>
+        <p>css property of the day:</p>
+        <p>display: inline block;</p>
+        <p>in skype we will do the poll to se which tag is more voted</p>
+        <br>
+        <li>If u want to know the code press <kbd>f12</kbd></li>
+        <h2>11/19/2021</h2>
+        <details>
+            <summary>English</summary>
+            <P>Soon is day of the tree!</P>
+            <p>Video that will make you laugh! (make fun of elsa)</p>
+            <a href="https://www.youtube.com/watch?v=_SOEN8_ffsU&t=2s">Link of funny video</a>
+            <summary>Italiano</summary>
+            <p>Tra poco è la festa dell'albero!</p>
+            <p>Video che ti fa ridere! (prende in giro Elsa)</p>
+            <a href="https://www.youtube.com/watch?v=_SOEN8_ffsU&t=2s">Link di video che fa ridere.</a>
+        </details>
+        <details>
+            <summary>Italiano</summary>
+            <p>Tra poco è la festa dell'albero!</p>
+            <p>Video che ti fa ridere! (prende in giro Elsa)</p>
+            <a href="https://www.youtube.com/watch?v=_SOEN8_ffsU&t=2s">Link di video che fa ridere.</a>
+        </details>
+        <h2>11/9/2021</h2>
+        <details>
+            <summary>English</summary>
+            <p>Today my matematic teacher teached us espressions! I will tell one</p>
+            <p>5x[3+5]+(2x5)=</p>
+            <p>5x[3x5]+10=</p>
+            <p>5x15+10=</p>
+            <p>75+10=85</p>
+        </details>
+        <details>
+            <summary>Italiano</summary>
+            <p>Oggi la mia maestra di matematica ci ha imparate gli espressioni! ve lo faccio uno</p>
+            <p>5x[3+5]+(2x5)=</p>
+            <p>5x[3x5]+10=</p>
+            <p>5x15+10=</p>
+            <p>75+10=85</p>
+        </details>
+        <h2>11/5/2021</h2>
+        <details>
+            <summary>English</summary>
+            <p>Finished Mickey Mouse and Pluto drawing</p>
+            <p>And Tommorow is WEEEEEEEEEEEEEEEEEEEEEKEND! Finally.</p>
+            <p>I got a windows 10 hack to get emoji! press <kbd>win</kbd> + <kbd>.</kbd></p>
+        </details>
+        <details>
+            <summary>Italiano</summary>
+            <p>Finito disegno di Mickey Mouse e Pluto</p>
+            <p>Domani è il WEEEEEEEEEEEEEEEEEEEEEKEND! Finalmente.</p>
+            <p>Ho una strategia per windows 10 di prendere emoji devi premere win. + .</p>
+        </details>
+        <p>version 1</p>
+        <p id="demo2">lines of code: 208</p>
+        <script>
+            // Functions
+            function myFunction() {
+                var element = document.body
+                element.classList.toggle("red-mode")
+            }
+            function myFunction2() {
+                var element = document.body
+                element.classList.toggle("dark-mode") 
+            }
+            function myFunction3() {
+                var element = document.body
+                element.classList.toggle("Isa-mode")
+            }
+            function myFunction4() {
+                var element = document.body
+                element.classList.toggle("daddy-mode")
+            }
+        </script>
+    </body>
+</html>
